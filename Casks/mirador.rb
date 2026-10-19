@@ -1,8 +1,8 @@
 cask "mirador" do
-  version "0.5.0"
-  sha256 arm:          "0dc18acf847d4a70a8e659d200d26e49077ccb667f107bb60d8a9f6ff9b26438",
-         arm64_linux:  "41db48b96fb3d11256d94039fa487767a12b6abce40cb8b9549661e59c4fec5d",
-         x86_64_linux: "7d7d2a4c1d1309f13bb45d0c216f8ced6ebe7243fa83c121fb6e1bfa8ccf24eb"
+  version "0.5.1"
+  sha256 arm:          "1e57519fd78f66d9bfce5e5f779052c3fc55dab47bca3110d196545add3afc5c",
+         arm64_linux:  "796c422d842e403c4ba496ab718a34b38ee68978c94848cd71d5ebad8f9ffd75",
+         x86_64_linux: "573e18e3e2103e83d1340b3c0defc624de3a96b655339ea5c167e0a7eb6dd7e4"
 
   on_macos do
     url "https://github.com/sodre90/mirador/releases/download/v#{version}/Mirador-macos-arm64.zip"
