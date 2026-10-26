@@ -1,8 +1,8 @@
 cask "mirador" do
-  version "0.6.0"
-  sha256 arm:          "83845b3511931385791c8b91ca36dbd8ee032471381ae32a869e8644b38054c0",
-         arm64_linux:  "e1f0576f0417c4f24e78ae1a57b5fe7a3446e6360b8f86e754ec4e4b9735a87f",
-         x86_64_linux: "980f266653a5429aa1678c4f743a791a0e5766d570b82bcebe104826f9af08cf"
+  version "0.7.0"
+  sha256 arm:          "15f27cbb5683e529571f020817b235fb723a3e2b69d3aebef1f92f4d65624597",
+         arm64_linux:  "e058d8460431c667b4ccba8a3d249a5a7f7c5d857e6d700058aa8c2984561677",
+         x86_64_linux: "1b5df5ac3c42f58f6423008ea414fed4ac52a9554d27f7c7adf39268aca30f74"
 
   on_macos do
     url "https://github.com/sodre90/mirador/releases/download/v#{version}/Mirador-macos-arm64.zip"
@@ -63,7 +63,7 @@ cask "mirador" do
 
   name "Mirador"
   desc "Canvas for coding agents to draw, ask and review beside the conversation"
-  homepage "https://github.com/sodre90/mirador"
+  homepage "https://mirador.sodre90.com/"
 
   livecheck do
     url :url
